@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main()
+void swap()
 {
     int x,y ;
 
@@ -20,8 +20,13 @@ int main()
 
     cout << endl << "after swapping : x = " << x << "\t\ty = " << y << endl ;
 
+}
 
-
+int main()
+{
+    swap() ;
 
     return 0 ;
 }
+
+
